@@ -1,0 +1,53 @@
+.col {
+    margin: 10px;
+    padding: 20px;
+}
+.value_number {
+    border-radius: 29px;
+    background: #90c6c5;
+    box-shadow:  5px -5px 0px #75a0a0,
+             -5px 5px 0px #abecea;
+    border: none;
+    font: bold 15px Arial;
+}
+
+.especial_button {
+    border-radius: 29px;
+    background: #417290;
+    box-shadow:  5px -5px 0px #355c75,
+             -5px 5px 0px #4d88ab;
+             font: bold 20px Arial;
+}
+
+input[type=text] {
+ border-radius: 40px;
+}
+
+.reset {
+    border-radius: 29px;
+    background: #fff700;
+    box-shadow:  5px -5px 0px #cfc800,
+             -5px 5px 0px #ffff00;
+}
+
+.equals {
+    border-radius: 29px;
+    background: #00ff04;
+    box-shadow:  5px -5px 0px #00cf03,
+             -5px 5px 0px #00ff05;
+}
+
+.result {
+    border-radius: 29px;
+    background: #8000ff;
+    box-shadow:  5px -5px 0px #6800cf,
+             -5px 5px 0px #9800ff;
+    color: #FFF;
+    text-align: center;
+    font: bold 25px Arial;
+}
+.result::placeholder {
+    color: #FFF;
+    text-align: center;
+    font: bold 25px Arial;
+}
